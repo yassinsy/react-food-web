@@ -1,0 +1,59 @@
+/* Style pour le menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2, h3, h4 {
+    margin: 0;
+  }
+  
+  .price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .recipe {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .recipe ul, .recipe ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  /* Style pour le bouton Recette */
+  .recipe-button {
+    margin-top: 10px;
+    background-color:#fb911f;
+    border-color:#fb911f;
+  }
+  
+  .recipe-button:focus + .recipe {
+    display: block;
+  }
+  .section span{
+    color:#fb911f;
+  }
+  
